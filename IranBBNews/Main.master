@@ -1,0 +1,129 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title><asp:ContentPlaceHolder id="head" runat="server"></asp:ContentPlaceHolder></title>
+      
+    
+    
+    <link href="styles/StyleSheetMain.css" rel="stylesheet" type="text/css" />
+
+    </head>
+<body>
+   
+   <div id="wrapper">
+
+        <form id="form1" runat="server">
+
+
+   <div id="header">
+
+
+
+   
+
+   <div id="login">
+   
+   </div>
+
+   
+   
+   <div id="menu">
+
+   <div id="tabs6">
+  <ul>
+    <li><a href="~/Default.aspx" title="صفحه ی اصلی" runat="server"><span>                خانه              </span></a></li>
+    <li><a href="~/News.aspx" title="لیست خبرها" runat="server"><span>     خبر        </span></a></li>
+   <li><a href="~/Picture.aspx" title="آخرین عکسهای ارسالی" runat="server"><span>     عکس                 </span></a></li>
+    <li><a href="~/Video.aspx" title="آخرین ویدئوهای ارسالی" runat="server"><span>      ویدئو       </span></a></li>
+    <li><a href="~/BlogPost.aspx" title="آخرین مطالب بلاگستان" runat="server"><span>      بلاگستان        </span></a></li>
+    <li><a href="~/NewsSubPage/Politic.aspx" title="خبرهای سیاسی" runat="server"><span>      سیاسی        </span></a></li>
+    <li><a href="~/NewsSubPage/Art.aspx" title="خبرهای هنری" runat="server"><span>      هنری        </span></a></li>
+    <li><a href="~/NewsSubPage/Cultural.aspx" title="خبرهای فرهنگی" runat="server"><span>      فرهنگی        </span></a></li>
+    <li><a href="~/NewsSubPage/Women.aspx" title="هبرهای مربوط به زنان" runat="server"><span>      زنان        </span></a></li>
+    <li><a href="~/NewsSubPage/Economic.aspx" title="خبرهای اقتصادی" runat="server"><span>      اقتصاد        </span></a></li>
+    <li><a href="~/NewsSubPage/Satire.aspx" title="خبرهای طنز" runat="server"><span>      طنز        </span></a></li>
+    <li><a href="~/NewsSubPage/Sport.aspx" title="خبرهای ورزشی" runat="server"><span>      ورزشی        </span></a></li>
+    <li><a href="~/NewsSubPage/International.aspx" title="خبرهای بین المللی" runat="server"><span>      بین المللی        </span></a></li>
+   <li><a href="~/About.aspx" title="درباره ی ما" runat="server"><span>        درباره ی ما               </span></a></li>
+    <li><a href="~/Contact.aspx" title="تماس با ما" runat="server"><span>      تماس با ما         </span></a></li>
+
+    
+    
+  </ul>
+</div>
+
+   
+   </div>
+
+
+
+
+   </div>
+   
+
+
+
+   
+
+   <div id="content">
+   
+    <asp:ContentPlaceHolder id="MainContent" runat="server">
+
+   </asp:ContentPlaceHolder>
+
+   </div>
+
+   <div id="footer">
+   
+         <div id="ullist1">   
+        <ul>
+        <li><a href="#" title="پرش به بالا" runat="server">بالا</a></li>
+        <li><a href="http://ymlp.com/xgjjhjuygmgj" title="خبرنامه" runat="server">خبرنامه</a></li>
+        </ul>
+       </div> 
+
+       <div id="ullist2">   
+        <ul>
+        <li><a href="~/NewsSubPage/International.aspx" title="خبرهای بین المللی" runat="server">بین المللی</a></li>
+        <li><a href="~/NewsSubPage/Women.aspx" title="خبرهای مربوط به زنان" runat="server">زنان</a></li>
+        <li><a href="~/Picture.aspx" title="عکس" runat="server">عکس</a></li>
+        <li><a href="~/Video.aspx" title="ویدئو" runat="server">ویدئو</a></li>
+        <li><a href="~/NewsSubPage/Economic.aspx" title="خبرهای اقتصادی" runat="server">اقتصادی</a></li>
+        <li><a href="~/NewsSubPage/Satire.aspx" title="خبرهای طنز" runat="server">طنز</a></li>
+        </ul>
+       </div> 
+
+       <div id="ullist3">   
+        <ul>
+        <li><a href="~/News.aspx" title="خبرها" runat="server">خبرها</a></li>
+        <li><a href="~/NewsSubPage/Politic.aspx" title="خبرهای سیاسی" runat="server">سیاسی</a></li>
+        <li><a href="~/NewsSubPage/Social.aspx" title="خبرهای اجتماعی" runat="server">اجتماعی</a></li>
+        <li><a href="~/NewsSubPage/Cultural.aspx" title="خبرهای فرهنگی" runat="server">فرهنگی</a></li>
+        <li><a href="~/NewsSubPage/Art.aspx" title="خبرهای هنری" runat="server">هنری</a></li>
+        <li><a href="~/NewsSubPage/Sport.aspx" title="خبرهای ورزشی" runat="server">ورزشی</a></li>
+        </ul>
+       </div> 
+
+       <div id="ullist4">   
+        <ul>
+        <li><a href="~/Default.aspx" title="خانه" runat="server">خانه</a></li>
+        <li><a href="~/About.aspx" title="درباره ی ما" runat="server">درباره ی ما</a></li>
+        <li><a href="~/Contact.aspx" title="تماس با ما" runat="server">تماس با ما</a></li>
+        <li><a href="~/Users/CreatingUserAccounts.aspx" title="عضویت" runat="server">عضویت</a></li>
+        <li><a href="~/Login.aspx" title="ورود" runat="server">ورود</a></li>
+        </ul>
+       </div> 
+        
+        
+
+    <p id="Copyright">Copyright @ IranBBNews 2012 All Right Reserved.</p>
+   </div>
+
+
+   </form>
+   </div>
+</body>
+</html>
