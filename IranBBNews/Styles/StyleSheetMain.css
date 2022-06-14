@@ -1,0 +1,533 @@
+﻿body, html
+{
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #000000;
+    background-color: #999999;
+    margin: 0px;
+    padding: 0;
+}
+
+#wrapper
+{
+    width: 1000px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #FFFFFF;
+}
+
+ul, li, a, span, p
+{
+    margin: 0px 0 0 0;
+    padding: 0;
+    height: 12px;
+    text-align: right;
+    font-weight: 700;
+}
+
+
+#header
+{
+    height: 160px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+
+#login
+{
+    width: 1000px;
+    height: 150px;
+    background-color: #0000FF;
+    background: url("../images/login.png") no-repeat;
+    padding: 0px;
+}
+
+#menu
+{
+    height: 29px;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: normal;
+    font-variant: normal;
+    margin: 0px;
+    padding: 0;
+}
+
+#tabs6
+{
+    float: right;
+    width: 100%;
+    background: #3F3F3F;
+    font-size: 93%;
+    line-height: normal;
+    height: 27px;
+    margin-bottom: 14px;
+}
+#tabs6 ul
+{
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+}
+#tabs6 li
+{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+#tabs6 a
+{
+    float: right;
+    background: url("../images/tableft6.gif") no-repeat left top;
+    margin: 0;
+    padding: 0 0 0 4px;
+    text-decoration: none;
+}
+#tabs6 a span
+{
+    float: right;
+    display: block;
+    background: url("../images/tabright6.gif") no-repeat right top;
+    padding: 5px 17px 4px 6px;
+    color: #FFF;
+}
+/* هک برای اینترنت اکسپلورر شش \*/
+#tabs6 a span
+{
+    float: none;
+}
+/* پایان هک */
+#tabs6 a:hover span
+{
+    color: #FFF;
+}
+#tabs6 a:hover
+{
+    background-position: 0% -42px;
+}
+#tabs6 a:hover span
+{
+    background-position: 100% -42px;
+}
+
+
+#content
+{
+    margin: 17px auto 0 auto;
+    padding: 0;
+    width: 1000px;
+    height: auto;
+    background-color: #FFFFFF;
+    text-align: right;
+}
+/*چرا اول باید لفت و رایت بیاد و بعد وسطی و اگر اول لفت بعد وسطی و بعد رایت بیاید رایت ساید به پایین کشیده میشود و خراب میشود؟*/
+
+
+
+
+#footer
+{
+    height: 132px;
+    width: 1000px;
+    clear: both;
+    background-color: #CCCCCC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    border-top: 1px solid #efefef;
+}
+
+
+#footer p
+{
+    margin-top: 116px;
+    text-align: center;
+}
+#footer a
+{
+    text-decoration: none;
+    color: #333333;
+}
+
+#footer a:hover
+{
+    text-decoration: underline;
+}
+
+#footer ul
+{
+    list-style: none;
+    top: 0px;
+    left: 0px;
+    text-align: right;
+    font-weight: bold;
+}
+#footer ul li
+{
+    padding: 2px;
+    color: #333333;
+    font-family: tahoma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: small;
+}
+
+#ullist1
+{
+    height: 120px;
+    width: 183px;
+    margin-left: 57px;
+    position: absolute;
+}
+
+#ullist2
+{
+    height: 120px;
+    width: 183px;
+    margin-left: 291px;
+    position: absolute;
+}
+
+#ullist3
+{
+    height: 120px;
+    width: 183px;
+    margin-left: 520px;
+    position: absolute;
+}
+
+#ullist4
+{
+    height: 120px;
+    width: 183px;
+    margin-left: 750px;
+    position: absolute;
+}
+
+/* استایل مربوط به صفحه ی دیفالت*/
+#Defleftside
+{
+    float: left;
+    height: 900px;
+    width: 300px;
+}
+
+#Ozviat
+{
+    border: 1px solid #CCC;
+    height: 200px;
+}
+
+#AksRooz
+{
+    background-position: top;
+    height: 300px;
+    border: 1px solid #CCC;
+    background-image: url('../Images/TopAks.png');
+    background-repeat: no-repeat;
+}
+
+#VideoRooz
+{
+    background-position: top;
+    height: 300px;
+    border: 1px solid #CCC;
+    background-image: url('../Images/TopVideo.png');
+    background-repeat: no-repeat;
+}
+
+
+#Khabarname
+{
+    background-position: top;
+    height: 100px;
+    border: 1px solid #CCC;
+    background-image: url('../Images/NewsLetter.png');
+    background-repeat: no-repeat;
+}
+
+#Defrightside
+{
+    height: 900px;
+    width: 700px;
+    float: right;
+}
+#Jquery
+{
+    background-position: top;
+    height: 300px;
+    border: 1px solid #CCC;
+    background-image: url('../Images/NewsOfDay.png');
+    background-repeat: no-repeat;
+}
+
+#NewsBlogcontainer
+{
+    height: 349px;
+    border: 1px solid #CCC;
+}
+
+#LastNews
+{
+    background-position: top;
+    height: 350px;
+    width: 348px;
+    float: right;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #CCC;
+    background-image: url('../Images/LastBlogDefault.png');
+    background-repeat: no-repeat;
+}
+#BlogLastPost
+{
+    background-position: top;
+    height: 350px;
+    width: 346px;
+    background-image: url('../Images/LastNewsDefault.png');
+    background-repeat: no-repeat;
+}
+
+#Montakhabsardabir
+{
+    background-position: top;
+    height: 250px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #CCC;
+    background-image: url('../Images/MontakhabSardabir.png');
+    background-repeat: no-repeat;
+}
+/* استایل مربوط به صفحه های نیوز و بلاگ پست و پیکچر و ویدئو*/
+#leftside
+{
+    height: 1200px;
+    width: 298px;
+    float: left;
+    border: 1px solid #CCC;
+    background-color: inherit;
+}
+
+
+#leftside1
+{
+    background-position: top;
+    height: 300px;
+    border: 1px solid #CCC;
+    background-image: url('../Images/TopNews.png');
+    background-repeat: no-repeat;
+}
+#leftside2
+{
+    background-position: top;
+    height: 300px;
+    border: 1px solid #CCC;
+    background-image: url('../Images/TopAks.png');
+    background-repeat: no-repeat;
+}
+
+#leftside3
+{
+    background-position: top;
+    height: 300px;
+    border: 1px solid #CCC;
+    background-image: url('../Images/TopBlog.png');
+    background-repeat: no-repeat;
+}
+#leftside4
+{
+    background-position: top;
+    height: 300px;
+    border-bottom-color: #CCC;
+    background-image: url('../Images/TopVideo.png');
+    background-repeat: no-repeat;
+}
+
+#rightside
+{
+    height: auto;
+    width: 698px;
+    float: right;
+    border: 1px solid #CCC;
+    background-color: inherit;
+}
+
+#contentpost
+{
+    border-bottom-color: #CCC;
+    direction: rtl;
+    height: auto;
+}
+
+
+#Comment
+{
+    border: 1px solid #CCC;
+    height: auto;
+}
+#CommentPost
+{
+    height: 400px;
+    border: 1px solid #CCC;
+}
+/* استایل مربوط به صفحه ی ادمین*/
+#adminmenu
+{
+    width: 200px;
+    height: 350px;
+    float: right;
+}
+
+#adminlist
+{
+    float: right;
+    width: 200px;
+    font-size: 93%;
+    line-height: normal;
+    height: 300px;
+    margin-top: 100px;
+}
+#adminlist ul
+{
+    margin: 0px 0 0 0;
+    padding: 0;
+    display: block;
+    list-style: none;
+    width: 200px;
+    height: 140px;
+}
+#adminlist li
+{
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: right;
+    height: 25px;
+}
+#adminlist a
+{
+    float: right;
+    display: block;
+    margin-top: 10px;
+    padding: 4px 4px 4px 4px;
+    text-decoration: none;
+}
+#adminlist a span
+{
+    float: right;
+    text-align: right;
+    display: block;
+    background: url("../images/tabright6.gif") no-repeat right top;
+    padding: 5px 17px 4px 6px;
+    color: #FFF;
+}
+/* هک برای اینترنت اکسپلورر شش \*/
+#adminlist a span
+{
+    float: none;
+    width: 167px;
+}
+/* پایان هک */
+#adminlist a:hover span
+{
+    color: #FFF;
+}
+#adminlist a:hover
+{
+    background-position: 0% -42px;
+}
+#adminlist a:hover span
+{
+    background-position: 100% -42px;
+}
+#AdminContent
+{
+    border: 1px solid #CCC;
+    width: 798px;
+    height: auto;
+    float: left;
+}
+#UserReg
+{
+    border: 1px solid #C0C0C0;
+    height: 500px;
+    width: 400px;
+    margin-left: 320px;
+    direction: rtl;
+}
+#Userlogin
+{
+    border: 1px solid #C0C0C0;
+    height: 300px;
+    width: 400px;
+    margin-left: 320px;
+    direction: rtl;
+}
+#UnauthorizedAccesspage
+{
+    border: 1px solid #C0C0C0;
+    height: 300px;
+    width: 400px;
+    margin-left: 320px;
+    direction: rtl;
+}
+#Logoutpage
+{
+    border: 1px solid #C0C0C0;
+    height: 300px;
+    width: 400px;
+    margin-left: 320px;
+    direction: rtl;
+}
+
+/*    اتایل مربوط به صفحه ی پروفایل یوزر*/
+#UserProfileDetailsView
+{
+    direction: rtl;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+#NewsPost
+{
+    width: 600px;
+    height: 800px;
+    margin-left: 150px;
+    margin-top: 50px;
+    direction: rtl;
+}
+.khabarrooz
+{
+    float:left;
+    margin-left:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    margin-top:5px;
+    
+    }
+#khabarrooz2
+{
+    float: left;
+    margin-top: 30px;
+    margin-left: -320px;
+    width: 320px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    direction:rtl;
+} 
+
+.NewsLink
+{
+    font-family: tahoma;
+    font-size: 12px;
+    font-variant: normal;
+    color: #000000;
+} 
